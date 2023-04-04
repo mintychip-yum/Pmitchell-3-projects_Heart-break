@@ -27,6 +27,10 @@ body {
   display: none;
 }
 
+.mend {
+  display: none;
+}
+
 .active {
   display: block;
 }
