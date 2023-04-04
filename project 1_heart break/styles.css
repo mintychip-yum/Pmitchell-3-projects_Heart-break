@@ -11,7 +11,18 @@ body {
   align-items: center;
   height: 100vh;
   background-color: pink;
+  font-size: 40px;
+  
 }
+ body h1{
+  color: crimson;
+  font-style: oblique;
+ }
+
+ body article{
+  color: lightseagreen;
+  font-style: oblique;
+ }
 
 .emoji {
   font-size: 10rem;
