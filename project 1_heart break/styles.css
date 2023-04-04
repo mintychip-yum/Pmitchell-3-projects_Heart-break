@@ -24,6 +24,17 @@ body {
   font-style: oblique;
  }
 
+ footer{
+  position:fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+ text-align: center;
+ padding: 10px;
+  background-color: rgb(72, 39, 44);
+  font-size: 20px  
+ }
+
 .emoji {
   font-size: 10rem;
   cursor: pointer;
