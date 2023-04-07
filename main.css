@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: pink;
+  font-size: 40px;
+  
+}
+ body h1{
+  color: crimson;
+  font-style: oblique;
+ }
+
+ body article{
+  color: lightseagreen;
+  font-style: oblique;
+ }
+
+ footer{
+  position:fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+ text-align: center;
+ padding: 10px;
+  background-color: rgb(72, 39, 44);
+  font-size: 20px  
+ }
+
+.emoji {
+  font-size: 10rem;
+  cursor: pointer;
+  user-select: none;
+}
+
+.closed {
+  display: none;
+}
+
+.open {
+  display: none;
+}
+
+.mend {
+  display: none;
+}
+
+.active {
+  display: block;
+}
